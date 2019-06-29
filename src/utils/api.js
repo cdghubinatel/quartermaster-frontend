@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const client = axios.create({
-  baseURL: 'https://quartermaster-backend.herokuapp.com/api/',
+  baseURL: 'https://quartermaster-back-end.herokuapp.com/api/',
   json: true
 })
 
